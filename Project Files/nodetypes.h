@@ -1,0 +1,63 @@
+//
+// Created by bob on 2/3/22.
+//
+
+#ifndef _NODETYPES_H
+#define _NODETYPES_H
+
+enum NodeTypes {
+    NODE_LITERAL,
+    NODE_TRUE,
+    NODE_FALSE,
+
+    NODE_ID,
+
+    NODE_CALL,
+    NODE_PARM,
+    NODE_FN,
+    NODE_ASSIGN,
+
+    NODE_LIST,
+
+    NODE_ADD,
+    NODE_SUB,
+    NODE_MUL,
+    NODE_DIV,
+    NODE_MOD,
+    NODE_NEG,
+
+    NODE_EQ,
+    NODE_NE,
+    NODE_GT,
+    NODE_GE,
+    NODE_LT,
+    NODE_LE,
+
+    NODE_AND,
+    NODE_OR,
+    NODE_NOT,
+
+    NODE_ARRAY,
+    NODE_DECL,
+
+    NODE_STMT,
+    NODE_EXPR_STMT,
+    NODE_IF_STMT,
+    NODE_DO_STMT,
+    NODE_WHILE_STMT,
+    NODE_RET_STMT,
+    NODE_IN_STMT,
+    NODE_OUT_STMT,
+    NODE_BLOCK_STMT,
+    NODE_EMPTY_STMT,
+
+    NODE_TYPE_VOID,
+    NODE_TYPE_INT,
+    NODE_TYPE_DOUBLE,
+    NODE_TYPE_BOOL,
+    NODE_TYPE_STRING,
+
+    NODE_DUMMY
+};
+
+#endif //_NODETYPES_H
