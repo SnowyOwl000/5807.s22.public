@@ -1,0 +1,36 @@
+Begin parsing
+Tree root: 29
+Nodes:
+  n        left        right        node      type    offset
+-----   ----------   ----------   --------   ------   ------
+    0           --           --       VOID     NONE   --
+    1           --           --        INT      INT   --
+    2           --           --         ID     NONE   81 (num)
+    3           --            2       LIST     NONE   --
+    4            1            3       DECL     NONE   --
+    5           --            4       LIST     NONE   --
+    6           --           --    LITERAL   STRING   85 ("Enter a number: ")
+    7            6           --     OUTPUT     NONE   --
+    8           --            7       LIST     NONE   --
+    9           --           --         ID     NONE   81 (num)
+   10            9           --      INPUT     NONE   --
+   11            8           10       LIST     NONE   --
+   12           --           --         ID     NONE   81 (num)
+   13           --           --    LITERAL      INT   104 (2)
+   14           12           13        MOD     NONE   --
+   15           --           --    LITERAL      INT   106 (0)
+   16           14           15         EQ     NONE   --
+   17           --           --    LITERAL   STRING   108 ("Even\n")
+   18           17           --     OUTPUT     NONE   --
+   19           --           --    LITERAL   STRING   117 ("Odd\n")
+   20           19           --     OUTPUT     NONE   --
+   21           18           20      DUMMY     NONE   --
+   22           16           21         IF     NONE   --
+   23           11           22       LIST     NONE   --
+   24            5           23      BLOCK     NONE   --
+   25           --           --         ID     NONE   76 (main)
+   26            0           25      DUMMY     NONE   --
+   27           --           24      DUMMY     NONE   --
+   28           26           27   FUNCTION     NONE   --
+   29           --           28       LIST     NONE   --
+Parsing done

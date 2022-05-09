@@ -1,0 +1,102 @@
+Begin parsing
+Tree root: 95
+Nodes:
+  n        left        right        node      type    offset
+-----   ----------   ----------   --------   ------   ------
+    0           --           --     DOUBLE   DOUBLE   --
+    1           --           --     DOUBLE   DOUBLE   --
+    2           --           --         ID     NONE   81 (x)
+    3            1            2       PARM     NONE   --
+    4           --            3       LIST     NONE   --
+    5           --           --     DOUBLE   DOUBLE   --
+    6           --           --         ID     NONE   83 (cur)
+    7           --            6       LIST     NONE   --
+    8           --           --         ID     NONE   87 (prev)
+    9            7            8       LIST     NONE   --
+   10            5            9       DECL     NONE   --
+   11           --           10       LIST     NONE   --
+   12           --           --         ID     NONE   81 (x)
+   13           --           --    LITERAL      INT   92 (0)
+   14           12           13         LT     NONE   --
+   15           --           --    LITERAL      INT   94 (1)
+   16           15           --        NEG     NONE   --
+   17           16           --     RETURN     NONE   --
+   18           17           --      DUMMY     NONE   --
+   19           14           18         IF     NONE   --
+   20           --           19       LIST     NONE   --
+   21           --           --         ID     NONE   83 (cur)
+   22           --           --         ID     NONE   81 (x)
+   23           --           --    LITERAL      INT   96 (2)
+   24           22           23        DIV     NONE   --
+   25           21           24     ASSIGN     NONE   --
+   26           25           --   EXPRSTMT     NONE   --
+   27           20           26       LIST     NONE   --
+   28           --           --         ID     NONE   87 (prev)
+   29           --           --         ID     NONE   83 (cur)
+   30           28           29     ASSIGN     NONE   --
+   31           30           --   EXPRSTMT     NONE   --
+   32           --           31       LIST     NONE   --
+   33           --           --         ID     NONE   83 (cur)
+   34           --           --         ID     NONE   87 (prev)
+   35           --           --         ID     NONE   81 (x)
+   36           --           --         ID     NONE   87 (prev)
+   37           35           36        DIV     NONE   --
+   38           34           37        ADD     NONE   --
+   39           --           --    LITERAL      INT   96 (2)
+   40           38           39        DIV     NONE   --
+   41           33           40     ASSIGN     NONE   --
+   42           41           --   EXPRSTMT     NONE   --
+   43           32           42       LIST     NONE   --
+   44           --           43      BLOCK     NONE   --
+   45           --           --         ID     NONE   83 (cur)
+   46           --           --         ID     NONE   87 (prev)
+   47           45           46         NE     NONE   --
+   48           47           44         DO     NONE   --
+   49           27           48       LIST     NONE   --
+   50           --           --         ID     NONE   83 (cur)
+   51           50           --     RETURN     NONE   --
+   52           49           51       LIST     NONE   --
+   53           11           52      BLOCK     NONE   --
+   54           --           --         ID     NONE   76 (sqrt)
+   55            0           54      DUMMY     NONE   --
+   56            4           53      DUMMY     NONE   --
+   57           55           56   FUNCTION     NONE   --
+   58           --           57       LIST     NONE   --
+   59           --           --       VOID     NONE   --
+   60           --           --     DOUBLE   DOUBLE   --
+   61           --           --         ID     NONE   103 (val)
+   62           --           61       LIST     NONE   --
+   63           --           --         ID     NONE   107 (ans)
+   64           62           63       LIST     NONE   --
+   65           60           64       DECL     NONE   --
+   66           --           65       LIST     NONE   --
+   67           --           --    LITERAL   STRING   111 ("Enter a non-negative number: ")
+   68           67           --     OUTPUT     NONE   --
+   69           --           68       LIST     NONE   --
+   70           --           --         ID     NONE   103 (val)
+   71           70           --      INPUT     NONE   --
+   72           69           71       LIST     NONE   --
+   73           --           --         ID     NONE   107 (ans)
+   74           --           --         ID     NONE   103 (val)
+   75           --           74       LIST     NONE   --
+   76           --           --         ID     NONE   76 (sqrt)
+   77           76           75       CALL     NONE   --
+   78           73           77     ASSIGN     NONE   --
+   79           78           --   EXPRSTMT     NONE   --
+   80           72           79       LIST     NONE   --
+   81           --           --    LITERAL   STRING   143 ("Answer is: ")
+   82           81           --     OUTPUT     NONE   --
+   83           80           82       LIST     NONE   --
+   84           --           --         ID     NONE   107 (ans)
+   85           84           --     OUTPUT     NONE   --
+   86           83           85       LIST     NONE   --
+   87           --           --    LITERAL   STRING   157 ("\n")
+   88           87           --     OUTPUT     NONE   --
+   89           86           88       LIST     NONE   --
+   90           66           89      BLOCK     NONE   --
+   91           --           --         ID     NONE   98 (main)
+   92           59           91      DUMMY     NONE   --
+   93           --           90      DUMMY     NONE   --
+   94           92           93   FUNCTION     NONE   --
+   95           58           94       LIST     NONE   --
+Parsing done

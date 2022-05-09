@@ -1,0 +1,16 @@
+Begin parsing
+Tree root: 9
+Nodes:
+  n        left        right        node      type    offset
+-----   ----------   ----------   --------   ------   ------
+    0           --           --       VOID     NONE   --
+    1           --           --    LITERAL   STRING   81 ("Hello, world!\n")
+    2            1           --     OUTPUT     NONE   --
+    3           --            2       LIST     NONE   --
+    4           --            3      BLOCK     NONE   --
+    5           --           --         ID     NONE   76 (main)
+    6            0            5      DUMMY     NONE   --
+    7           --            4      DUMMY     NONE   --
+    8            6            7   FUNCTION     NONE   --
+    9           --            8       LIST     NONE   --
+Parsing done

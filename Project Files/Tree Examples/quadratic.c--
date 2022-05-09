@@ -1,0 +1,37 @@
+double sqrt(double x) {
+  double cur,prev;
+  
+  if (x < 0)
+    return -1;
+    
+  cur = x / 2;
+  
+  do {
+    prev = cur;
+    
+    cur = (prev + x / prev) / 2;
+  } while (cur != prev);
+  
+  return cur;
+}
+
+void main() {
+  double a,b,c,d,x1,x2;
+  
+  output("Enter a, b and c: ");
+  input(a);
+  input(b);
+  input(c);
+  
+  d = b * b - 4 * a * c;
+  
+  x1 = (-b + sqrt(d)) / (2 * a);
+  x2 = (-b - sqrt(d)) / (2 * a);
+  
+  output("Roots are ");
+  output(x1);
+  output(" and ");
+  output(x2);
+  output("\n");
+}
+

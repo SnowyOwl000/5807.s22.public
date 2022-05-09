@@ -1,0 +1,30 @@
+double sqrt(double x) {
+  double cur,prev;
+  
+  if (x < 0)
+    return -1;
+    
+  cur = x / 2;
+  
+  do {
+    prev = cur;
+    
+    cur = (prev + x / prev) / 2;
+  } while (cur != prev);
+  
+  return cur;
+}
+
+void main() {
+  double val,ans;
+  
+  output("Enter a non-negative number: ");
+  input(val);
+  
+  ans = sqrt(val);
+  
+  output("Answer is: ");
+  output(ans);
+  output("\n");
+}
+

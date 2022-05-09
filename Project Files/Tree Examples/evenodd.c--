@@ -1,0 +1,12 @@
+void main() {
+  int num;
+  
+  output("Enter a number: ");
+  input(num);
+  
+  if (num % 2 == 0)
+    output("Even\n");
+  else
+    output("Odd\n");
+}
+
